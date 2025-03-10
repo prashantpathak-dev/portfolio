@@ -1,5 +1,5 @@
 <script>
-	const resumeId = '1Hbu1vtirEQfJYVHqwMK0OhvxMwortqww';
+	const resumeId = '1P2-eT9fste5UkAAzCxykyUa_6Ef4WLWn';
 </script>
 
 <div class="bg-base grow overflow-y-scroll">
@@ -45,8 +45,8 @@
 			<ul class="mx-2 text-justify">
 				<li>
 					<span class="text-primary">Generative AI:</span> LLM
-					<span class="text-secondary">(Large Language Models)</span> • RAG • ChromaDB • Huggingface
-					• LangChain
+					<span class="text-secondary">(Large Language Models)</span> • RAG • Vector Database • Huggingface
+					• LangChain • LangGraph
 				</li>
 				<li>
 					<span class="text-primary">NLP:</span> Transformers • Prompt Engineering • Conversational
@@ -62,14 +62,15 @@
 				</li>
 				<li>
 					<span class="text-primary">Cloud:</span> GCP
-					<span class="text-secondary">(CCAI • Dialogflow CX)</span>
-					• AWS
 					<span class="text-secondary"
-						>(Athena • Lambda • EventBridge • CloudWatch • S3 • CodeCommit)</span
+						>(CCAI • Dialogflow CX • Vertex AI • Cloud Functions • BigQuery)</span
 					>
+					• AWS
+					<span class="text-secondary">(Athena • Lambda • EventBridge)</span>
 				</li>
 				<li>
-					<span class="text-primary">Others:</span> Git • Docker • Tableau • Agile • OOP • Jupyter Notebook
+					<span class="text-primary">Others:</span> Git • Docker • MLOps • Looker • Tableau • Agile •
+					OOP • Jupyter Notebook
 				</li>
 			</ul>
 		</div>
@@ -82,23 +83,23 @@
 					<table class="w-full font-medium">
 						<tbody>
 							<tr>
-								<td class="text-primary">Senior Conversations Bot Engineer</td>
-								<td class="text-right">Apr 2024 - Present</td>
+								<td class="text-primary">Conversational Architect</td>
+								<td class="text-right">May 2024 - Present</td>
 							</tr>
 							<tr class="text-secondary">
-								<td>Quantiphi</td>
+								<td>Google TVC (Provided by Quantiphi)</td>
 								<td class="text-right">Bengaluru</td>
 							</tr>
 						</tbody>
 					</table>
 					<ul class="ml-5 list-outside list-disc text-justify">
 						<li>
-							Led the team's efforts to enhance Voice Bots (IVR) through feedback loop tasks,
-							boosting Containment Rate by 12%.
+							Led the transition of Voice Bots (IVR) to Gen AI Playbooks from Dialogflow CX,
+							achieving a 12% increase in CSAT.
 						</li>
 						<li>
-							Leveraged Gen AI within Dialogflow CX flows via Playbook implementations, achieving a
-							7% increase in CSAT Score.
+							Optimized data retrieval, spearheading a RAG based data store system that boosted the
+							Containment Rate by 7%.
 						</li>
 					</ul>
 				</div>
@@ -185,32 +186,57 @@
 					<table class="w-full font-medium">
 						<tbody>
 							<tr>
-								<td class="text-primary">Employee Retention Prediction for Salifort Motors</td>
-								<td class="text-right"
-									><a class="link" target="_blank" href="https://bit.ly/dspp1">bit.ly/dspp1</a></td
-								>
+								<td>
+									<span class="text-primary">Multi-Agent RAG Pipeline</span> using Crew AI, LangChain
+									and Tavily
+								</td>
+								<td class="text-right">
+									<a class="link" target="_blank" href="https://bit.ly/ppagt">bit.ly/ppagt</a>
+								</td>
 							</tr>
 						</tbody>
 					</table>
 					<p class="text-justify">
-						Leveraged machine learning to predict employee retention, providing strategic insights
-						for retention enhancements.
+						Built a multi-agent RAG system for collaborative retrieval and generation, integrating
+						Tavily for enhanced search.
 					</p>
 				</div>
 				<div id="project_2">
 					<table class="w-full font-medium">
 						<tbody>
 							<tr>
-								<td class="text-primary">Annual Membership Conversion for Cyclistic Bike Share</td>
-								<td class="text-right"
-									><a class="link" target="_blank" href="https://bit.ly/dspp2">bit.ly/dspp2</a></td
-								>
+								<td>
+									<span class="text-primary">RAG based QA Bot</span> using IBM Watsonx, Chroma DB, Gradio
+									and LangChain
+								</td>
+								<td class="text-right">
+									<a class="link" target="_blank" href="https://bit.ly/ppqab">bit.ly/ppqab</a>
+								</td>
 							</tr>
 						</tbody>
 					</table>
 					<p class="text-justify">
-						Analyzed user behavior and ridership patterns to drive an increase in Cyclistic Bike
-						Share annual memberships.
+						Created a Retrieval-Augmented Generation (RAG) based question answering system that uses
+						user-uploaded PDFs.
+					</p>
+				</div>
+				<div id="project_3">
+					<table class="w-full font-medium">
+						<tbody>
+							<tr>
+								<td>
+									<span class="text-primary">Employee Retention Prediction</span> using Regression and
+									Tree based ML Models
+								</td>
+								<td class="text-right">
+									<a class="link" target="_blank" href="https://bit.ly/ppret">bit.ly/ppret</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<p class="text-justify">
+						Leveraged machine learning to predict employee retention, providing strategic insights
+						for retention enhancements.
 					</p>
 				</div>
 				<div id="more_projects">
@@ -272,6 +298,10 @@
 			<div class="mx-2">
 				<table class="w-full">
 					<tbody>
+						<tr>
+							<td class="text-primary">Generative AI Engineering Professional</td>
+							<td class="text-right">IBM</td>
+						</tr>
 						<tr>
 							<td class="text-primary">Project Management Professional</td>
 							<td class="text-right">Google</td>
